@@ -14,9 +14,7 @@ export const router = (route) => {
             return content.appendChild(Home());
         }        
         case '#/about':
-            return console.log('About us')
-        case '#/webinar':
-            return console.log('Webinar')
+            return console.log('About us');
         default:
             return content.appendChild(Error404()); 
     }

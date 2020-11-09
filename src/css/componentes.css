@@ -13,6 +13,7 @@ p {
     align-items: center;
     flex-flow: column;
     width: 50%;
+    border: solid red;
 }
 
 button {
