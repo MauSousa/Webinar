@@ -1,0 +1,45 @@
+h1 {
+    /*color: red;*/
+    margin-top: 80px;
+}
+
+p {
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 50%;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    p { 
+        text-align: center;
+    }
+
+    button {
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
