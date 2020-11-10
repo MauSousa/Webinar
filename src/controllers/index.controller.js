@@ -6,15 +6,14 @@ export default () => {
     
     const divElement = document.createElement('div');
     divElement.innerHTML = views;
-    const boton = divElement.querySelector('#btnClick');
-    boton.addEventListener("click", () => {
-        Swal.fire(
-            'Gracias',
-            'En breve llegará te llegará un correo con las indicaciones necesarias para el webinar!',
-            'success'
-          )
-        // alert("Here's a message!");
-    });
+    // const boton = divElement.querySelector('#btnClick');
+    // boton.addEventListener("click", () => {
+    //     Swal.fire(
+    //         'Gracias',
+    //         'En breve llegará te llegará un correo con las indicaciones necesarias para el webinar!',
+    //         'success'
+    //       )
+    // });
 
     return divElement;
 }

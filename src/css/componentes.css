@@ -4,7 +4,10 @@ h1 {
 }
 
 p {
-    color: red;
+    font-size: 20px;
+    margin-top: 35px;
+    width: 70%;
+    /*border: solid pink;*/
 }
 
 .container {
@@ -13,7 +16,11 @@ p {
     align-items: center;
     flex-flow: column;
     width: 50%;
-    border: solid red;
+}
+
+.lista-1 {
+    width: 65%;
+    font-size: 18px;
 }
 
 button {
@@ -27,10 +34,7 @@ button {
         justify-content: center;
         align-items: center;
         flex-flow: column;
-    }
-
-    p { 
-        text-align: center;
+        width: 100%;
     }
 
     button {
@@ -42,5 +46,9 @@ button {
     h1 {
         font-size: 25px;
         text-align: center;
+    }
+
+    ul, ol {
+        margin: 10px 10px;
     }
 }

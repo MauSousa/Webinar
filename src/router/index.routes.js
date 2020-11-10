@@ -1,4 +1,5 @@
 import Home from '../controllers/index.controller';
+import About from '../controllers/index.controller';
 import Error404 from '../controllers/error404.controller';
 // html querys
 let content = document.getElementById('root');
@@ -14,7 +15,7 @@ export const router = (route) => {
             return content.appendChild(Home());
         }        
         case '#/about':
-            return console.log('About us');
+            return content.appendChild(About());
         default:
             return content.appendChild(Error404()); 
     }
