@@ -14,9 +14,11 @@ export const router = (route) => {
         case '':{
             return content.appendChild(Home());
         }        
-        case '#/about':
+        case '#/about': {
             return content.appendChild(About());
-        default:
+        }
+        default:{
             return content.appendChild(Error404()); 
+        }
     }
 }
