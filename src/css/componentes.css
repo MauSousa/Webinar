@@ -1,3 +1,7 @@
+body {
+    background-color: #ffffff;
+}
+
 h1 {
     /*color: red;*/
     margin-top: 80px;
@@ -23,8 +27,18 @@ p {
     font-size: 18px;
 }
 
-button {
-    cursor: pointer;
+.list-3-items {
+    list-style-type: circle;
+    margin-bottom: 1px;
+}
+
+.lista-4 {
+    margin: 5px;
+    width: 110%;
+}
+
+li {
+    margin-bottom: 2px;
 }
 
 @media (max-width: 768px) {
@@ -34,7 +48,7 @@ button {
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        width: 100%;
+        width: 105%;
     }
 
     button {
@@ -44,11 +58,36 @@ button {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 35px!important;
         text-align: center;
     }
 
     ul, ol {
         margin: 10px 10px;
+    }
+
+    .imagenes {
+        /* border: solid red; */
+        height: 100px;
+    }
+    
+    .imagenes-1 {
+        /* border: solid red; */
+        margin-right: 10px;
+        height: 140px;
+    }
+
+    .imagenes-2 {
+        /* border: solid blue; */
+        margin-right: 10px;
+        width: 70%;
+        height: 115px;
+    }
+
+    .imagenes-3 {
+        /* border: solid pink; */
+        margin-top: 20px;
+        width: 70%;
+        height: 100px;
     }
 }

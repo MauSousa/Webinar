@@ -1,5 +1,5 @@
 import Home from '../controllers/index.controller';
-import About from '../controllers/index.controller';
+import About from '../controllers/about.controller';
 import Error404 from '../controllers/error404.controller';
 // html querys
 let content = document.getElementById('root');
