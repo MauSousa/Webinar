@@ -41,6 +41,13 @@ li {
     margin-bottom: 2px;
 }
 
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
 
     .container {
@@ -68,7 +75,8 @@ li {
 
     .imagenes {
         /* border: solid red; */
-        height: 100px;
+        height: 380px;
+        margin-top: 10px;
     }
     
     .imagenes-1 {
