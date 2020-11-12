@@ -1,5 +1,5 @@
 import views from '../views/error404.html'
-import '../css/componentes.css'
+import '../css/error404.css'
 
 
 export default () => {
