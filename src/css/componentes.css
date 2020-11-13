@@ -1,5 +1,5 @@
-body {
-    background-color: #ffffff;
+html, body {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 h1 {
@@ -46,6 +46,22 @@ li {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: none;
+}
+
+.imagenes-1 {
+   width: 25%;
+   height: 15%;
+}
+
+.lista-1 {
+    /* border: solid pink; */
+    margin-top: 5px;
+}
+
+.consejos {
+    /* border: solid blue; */
+    margin-top: 3px;
 }
 
 @media (max-width: 768px) {
