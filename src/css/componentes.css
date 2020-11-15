@@ -1,9 +1,10 @@
 html, body {
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    height: 100hv;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    /*color: red;*/
     margin-top: 80px;
 }
 
@@ -19,7 +20,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    width: 50%;
+    width: 80%;
 }
 
 .lista-1 {
@@ -50,8 +51,18 @@ li {
 }
 
 .imagenes-1 {
-   width: 25%;
-   height: 15%;
+    margin-top: 30px;
+    width: 10rem;
+    height: 15%;
+}
+
+.imagenes-2 {
+    margin: 40px 0 0 0;
+}
+
+.imagenes-3 {
+    margin-top: 35px;
+    /* border: solid green; */
 }
 
 .lista-1 {
@@ -64,8 +75,7 @@ li {
     margin-top: 3px;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 800px) {
     .container {
         display: flex;
         justify-content: center;
@@ -73,45 +83,40 @@ li {
         flex-flow: column;
         width: 105%;
     }
-
     button {
         height: 35px;
         width: 100px;
         text-align: center;
     }
-
     h1 {
         font-size: 35px!important;
         text-align: center;
     }
-
     ul, ol {
         margin: 10px 10px;
     }
-
     .imagenes {
         /* border: solid red; */
         height: 380px;
         margin-top: 10px;
     }
-    
     .imagenes-1 {
         /* border: solid red; */
-        margin-right: 10px;
-        height: 140px;
+        /* margin-right: 10px; */
+        margin-left: 30px;
+        height: 80px;
+        width: 8rem;
     }
-
     .imagenes-2 {
         /* border: solid blue; */
         margin-right: 10px;
-        width: 70%;
+        width: 10rem;
         height: 115px;
     }
-
     .imagenes-3 {
         /* border: solid pink; */
         margin-top: 20px;
-        width: 70%;
+        width: 10rem;
         height: 100px;
     }
 }
