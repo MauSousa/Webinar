@@ -1,5 +1,5 @@
 html, body {
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-color: #fff;
     height: 100hv;
     background-repeat: no-repeat;
 }
@@ -82,6 +82,7 @@ li {
         align-items: center;
         flex-flow: column;
         width: 105%;
+        margin-left: 4rem;
     }
     button {
         height: 35px;
@@ -91,6 +92,7 @@ li {
     h1 {
         font-size: 35px!important;
         text-align: center;
+        margin-right: 5rem;
     }
     ul, ol {
         margin: 10px 10px;
