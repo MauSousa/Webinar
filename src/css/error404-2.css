@@ -1,0 +1,70 @@
+.container-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 8rem;
+}
+
+.error, .pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 15rem;
+}
+
+@keyframes bounce {
+    0%, 30%, 60%, 90%, 110% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(19px);
+    }
+    60% {
+        transform: translateY(-28px);
+    }
+}
+
+.btn {
+    margin-top: 2rem;
+}
+
+.error {
+    margin-right: 20rem;
+}
+
+@media(max-width:800px) {
+    .container-error {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 10rem;
+        margin-top: 5rem;
+    }
+
+    .error, .pagina {
+        font-weight: bold;
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .pagina {
+        margin-right: 12rem;
+        font-size: 4rem;
+    }
+
+    .error {
+        margin-left: 22rem;
+        font-size: 10rem!important;
+
+    }
+}
