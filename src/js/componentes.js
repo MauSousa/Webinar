@@ -17,7 +17,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // Hace referencia a los mensajes que van a la collecion de firebase
-//let messageRef = firebase.database().ref('messages');
+let messageRef = firebase.database().ref('messages');
 
 
 // Envia los datos del formulario a firebase
@@ -27,9 +27,9 @@ export function submitForm(e) {
     const nombre = getInputValue("nombre");
     const apellido = getInputValue("apellido");
     const correo = getInputValue("correo");
-    
+
     // saveMessage(nombre, apellido, correo);
-    
+
     //Fires the alert
     Swal.fire(
         'Gracias',
@@ -45,12 +45,12 @@ function getInputValue(id) {
 }
 
 
-// Funcion para enviar los datos a firebase
-// function saveMessage(nombre, apellido, correo){
-//     let newMessageRef = messageRef.push();
-//     newMessageRef.set({
-//         nombre = nombre,
-//         apellido = apellido,
-//         correo = correo
-//     });
-// }
+//Funcion para enviar los datos a firebase
+function saveMessage(nombre, apellido, correo) {
+    let newMessageRef = messageRef.push();
+    newMessageRef.set({
+        nombre = nombre,
+        apellido = apellido,
+        correo = correo
+    });
+}
