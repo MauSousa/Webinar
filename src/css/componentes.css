@@ -75,24 +75,52 @@ li {
     margin-top: 3px;
 }
 
+.wrapper {
+    /* border: solid red; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-form {
+    /* border: solid green; */
+    width: auto;
+    height: 4em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: -1em;
+}
+
+label{
+    font-size: 15px;
+    margin-bottom: -3px;
+}
+
+
 @media (max-width: 800px) {
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        width: 105%;
-        margin-left: 4rem;
+        margin-left: 7em;
     }
     button {
         height: 35px;
         width: 100px;
         text-align: center;
+        margin-left: 40px;
+    }
+    input[type=text], input[type=email] {
+        width: 245px;
     }
     h1 {
         font-size: 35px!important;
         text-align: center;
         margin-right: 5rem;
+        margin-top: 1px;
     }
     ul, ol {
         margin: 10px 10px;
@@ -121,4 +149,9 @@ li {
         width: 10rem;
         height: 100px;
     }
+    label{
+        font-size: 15px;
+        margin-bottom: -3px;
+    }
+
 }
