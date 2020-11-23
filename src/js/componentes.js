@@ -14,7 +14,7 @@ export function submitForm(e) {
 
     //Fires the alert
     Swal.fire(
-        'Gracias',
+        'Gracias por llenar este demo',
         'En breve llegará te llegará un correo con las indicaciones necesarias para el webinar!',
         'success'
     );
@@ -26,7 +26,7 @@ export function submitForm(e) {
         lastName: apellido,
         email: correo
     };
-    //ref.push(dataForm);
+    // ref.push(dataForm);
     // console.log(database);
     // console.log(refMessage);
     console.log(dataForm);
