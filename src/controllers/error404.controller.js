@@ -1,4 +1,4 @@
-import views from '../views/error404-2.html'
+import views from '../views/error404.html'
 import '../css/error404-2.css'
 
 
