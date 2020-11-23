@@ -80,6 +80,7 @@ li {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
 }
 
 .p-form {
@@ -96,6 +97,16 @@ li {
 label{
     font-size: 15px;
     margin-bottom: -3px;
+}
+
+.consejos {
+    border: solid green;
+    height: auto;
+}
+
+.consejos-span {
+    /* border: solid red; */
+    margin-top: 10px;
 }
 
 
