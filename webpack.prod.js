@@ -9,12 +9,12 @@ module.exports = {
 
     mode: 'production',
     optimization: {
-        minimizer: [ new OptimizeCssAssetsPlugin() ]
+        minimizer: [new OptimizeCssAssetsPlugin()]
     },
     output: {
         filename: 'main.[contentHash].js',
     },
-    module: { 
+    module: {
         rules: [
             {
                 test: /\.m?js$/,
@@ -27,7 +27,7 @@ module.exports = {
                 }
             },
             {
-                test:/\.css$/i,
+                test: /\.css$/i,
                 exclude: /styles\.css$/,
                 use: [
                     'style-loader',
@@ -54,30 +54,30 @@ module.exports = {
                 use: [
                     {
                         loader: 'file-loader',
-                        options: { 
+                        options: {
                             esModule: false
-                         }
+                        }
                     }
                 ]
             }
         ]
-     },
-     plugins: [
+    },
+    plugins: [
         new CleanWebpackPlugin(),
-         new HtmlWebPackPlugin({
-             template: './src/index.html',
-             filename: './index.html'
-         }),
-         new MiniCssExtractPlugin({
-             filename: '[name].[contentHash].css',
-             igonreOrder: false,
-         }),
-         new CopyPlugin({
-             patterns: [
+        new HtmlWebPackPlugin({
+            template: './src/index.html',
+            filename: './index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename: '[name].[contentHash].css',
+            igonreOrder: false,
+        }),
+        new CopyPlugin({
+            patterns: [
                 { from: 'src/assets', to: 'assets/' },
-             ],
-         }),
-         new MinifyPlugin()
-     ]
+            ],
+        }),
+        new MinifyPlugin()
+    ]
 
 }

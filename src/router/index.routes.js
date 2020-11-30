@@ -11,7 +11,7 @@ export const router = (route) => {
 
     switch(route){
         
-        case '':{
+        case '/Webinar/#':{
             return content.appendChild(Home());
         }        
         case '#/about': {
