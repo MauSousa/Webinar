@@ -24,17 +24,21 @@ h1 {
     justify-content: center;
     align-items: center;
     /* border: solid blue; */
+    height: 100%;
+    padding-right: 50px;
 }
 
 .contenedor-2 {
     height: 30rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between!important;
     align-items: center;
-    width: 70%;
+    width: 90rem;
     margin-left: 20%;
     flex-direction: row;
-    margin-top: 15rem;
+    margin-top: 5rem;
+    /* border: solid blue; */
+    padding: 0 5px;
 }
 
 .cuerpo-carta {
@@ -42,18 +46,21 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* border: solid green; */
 }
 
 .contenedor-3 {
     height: 30rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 80%;
-    margin-left: 15%;
+    width: auto;
+    /* margin-left: 15%; */
     flex-direction: row;
-    padding: 5px;
-    margin-top: 12rem;
+    padding-left: 200px;
+    margin-top: 5rem;
+    /* border: solid green; */
+    height: auto;
 }
 
 .cartas-deck-3 {
@@ -67,21 +74,26 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
+    /* border: solid blue; */
 }
 
 .carta-2-1, .carta-2 {
-    width: 80%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: column wrap;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
+    /* border: solid blue; */
 }
 
 .carta:hover, .carta-2-1:hover, .carta-2:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .imagen {
@@ -114,50 +126,49 @@ h1 {
     text-align: justify;
 }
 
-@media (max-width: 800px){
-
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 5rem 9rem 0 0;
-        height: 100%;
+@media (max-width: 800px) {
+    .display-3 {
+        margin-top: 100px;
+        margin-left: 2rem;
     }
-
     .contenedor {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 15rem;
-        margin-top: 5rem;
-        height: 50rem;
-        margin-left: 9rem;
+        /* width: auto; */
+        margin-top: 2rem;
+        height: auto;
+        width: 280px;
+        /* border: solid green 1px; */
+        margin-left: 5rem;
+        padding-left: 20px;
     }
-
     .contenedor-2 {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        height: 105rem;
+        height: auto;
         flex-direction: column;
-        width: 15rem;
-        margin-right: 18rem;
-        margin-top: -5rem;
+        width: 280px;
+        margin-left: 5rem;
+        /* margin-top: -5rem; */
+        /* border: solid green 1px; */
+        padding-right: 85px;
     }
-
     .contenedor-3 {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        height: 90rem;
+        height: auto;
         flex-direction: column;
-        width: 15rem;
-        margin-left: 6.5rem;
-        margin-bottom: 10px;
-        margin-top: -15rem;
+        width: 200px!important;
+        margin-left: 5rem;
+        /* margin-bottom: 10px;  */
+        /* margin-top: -15rem; */
+        /* border: solid green 1px; */
+        padding-right: 180px;
+        padding-left: 100px;
     }
-
     .cartas-deck {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -166,7 +177,6 @@ h1 {
         align-items: center;
         margin-left: 0;
     }
-
     .cartas-deck-2 {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -175,42 +185,34 @@ h1 {
         align-items: center;
         flex-direction: column;
     }
-
     .carta {
         width: 15rem;
     }
-
     .carta-2 {
         width: 15rem;
         margin-top: 10px;
     }
-
     .carta-2-1 {
         /* margin-bottom: 50px; */
         width: 15rem;
-
     }
-
     .carta:hover, .carta-2:hover, .carta-2-1:hover {
-        transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transform: scale(1);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
-
     .imagen {
         border-radius: 150px;
         height: 15rem;
         width: 15rem;
         margin-bottom: 10px;
     }
-
     h5 {
         margin-bottom: 10px;
         font-size: 18px;
         width: 20rem;
     }
-
     .titulo-carta {
         display: flex;
         justify-content: center;
     }
-
 }

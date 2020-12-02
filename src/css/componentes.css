@@ -94,7 +94,7 @@ li {
     margin-bottom: -1em;
 }
 
-label{
+label {
     font-size: 15px;
     margin-bottom: -3px;
 }
@@ -109,9 +109,23 @@ label{
     margin-top: 10px;
 }
 
+#btnClick {
+    margin-bottom: 80px;
+}
 
 @media (max-width: 800px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
     .container {
+        margin-top: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -160,9 +174,8 @@ label{
         width: 10rem;
         height: 100px;
     }
-    label{
+    label {
         font-size: 15px;
         margin-bottom: -3px;
     }
-
 }
