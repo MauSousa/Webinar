@@ -26,6 +26,7 @@ h1 {
     /* border: solid blue; */
     height: 100%;
     padding-right: 50px;
+    margin-top: 35px;
 }
 
 .contenedor-2 {
@@ -126,6 +127,10 @@ h1 {
     text-align: justify;
 }
 
+h6 {
+    font-size: 18.5px;
+}
+
 @media (max-width: 800px) {
     .display-3 {
         margin-top: 100px;
@@ -140,8 +145,8 @@ h1 {
         height: auto;
         width: 280px;
         /* border: solid green 1px; */
-        margin-left: 5rem;
-        padding-left: 20px;
+        /* margin-left: 6rem; */
+        padding-left: 120px;
     }
     .contenedor-2 {
         display: flex;
@@ -153,7 +158,7 @@ h1 {
         margin-left: 5rem;
         /* margin-top: -5rem; */
         /* border: solid green 1px; */
-        padding-right: 85px;
+        padding-right: 50px;
     }
     .contenedor-3 {
         display: flex;
@@ -162,12 +167,12 @@ h1 {
         height: auto;
         flex-direction: column;
         width: 200px!important;
-        margin-left: 5rem;
+        /* margin-right: 5rem; */
         /* margin-bottom: 10px;  */
         /* margin-top: -15rem; */
         /* border: solid green 1px; */
-        padding-right: 180px;
-        padding-left: 100px;
+        padding-right: 300px;
+        /* padding-left: 100px; */
     }
     .cartas-deck {
         margin-top: 10px;
