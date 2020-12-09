@@ -14,6 +14,9 @@ export const router = (route) => {
         case '':{
             return content.appendChild(Home());
         }
+        case '/':{
+            return content.appendChild(Home());
+        }
         case '/Webinar/#':{
             return content.appendChild(Home());
         }        
