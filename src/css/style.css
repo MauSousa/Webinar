@@ -32,14 +32,14 @@ h1 {
 .contenedor-2 {
     height: 30rem;
     display: flex;
-    justify-content: space-between!important;
+    justify-content: space-around;
     align-items: center;
     width: 90rem;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 8rem;
     /* border: solid blue; */
-    padding: 0 5px;
+    /* padding: 0 5px; */
 }
 
 .cuerpo-carta {
@@ -48,24 +48,29 @@ h1 {
     align-items: center;
     flex-direction: column;
     /* border: solid green; */
+    width: 20rem;
 }
 
 .contenedor-3 {
     height: 30rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* padding: 5px; */
     align-items: center;
     width: auto;
     /* margin-left: 15%; */
     flex-direction: row;
-    padding-left: 200px;
-    margin-top: 5rem;
+    /* padding-left: 200px; */
+    margin-top: 8rem;
     /* border: solid green; */
     height: auto;
 }
 
 .cartas-deck-3 {
-    padding: 10px;
+    /* padding: 10px; */
+    /* border: solid green 1px; */
+    height: auto;
+    width: auto;
 }
 
 .carta {
