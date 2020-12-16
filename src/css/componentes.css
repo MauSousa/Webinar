@@ -15,6 +15,10 @@ p {
     /*border: solid pink;*/
 }
 
+img {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -130,7 +134,7 @@ label {
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        margin-left: 7em;
+        /* margin-left: 7em; */
     }
     button {
         height: 35px;

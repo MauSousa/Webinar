@@ -16,9 +16,9 @@ export function submitForm(e) {
         'En breve llegará te llegará un correo con las indicaciones necesarias para el webinar!',
         'success'
     );
-    console.log(nombre);
-    console.log(apellido);
-    console.log(correo);
+    // console.log(nombre);
+    // console.log(apellido);
+    // console.log(correo);
 
 }
 
